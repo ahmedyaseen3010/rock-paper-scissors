@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap'); 
+*{
+    box-sizing: border-box;
+    font-family: 'Hanalei Fill', cursive;
+}
+body{
+    background-color: #F6EEE0;
+    background-image: url('img/bg.png');
+    background-repeat: repeat;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #423A47;
+    
+}
+h2{
+
+    text-align: center;
+    font-size: 30px;
+    color: #423A47;
+}
+#box-img{
+    display: flex;
+    flex-direction: row;
+    
+}
+.result1,
+.result2{
+    border: 1px solid #8E836D;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #f6f4f1;
+    opacity: 25px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    margin-top: 80px;
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    border: 1px solid #8E836D;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+button:hover{
+    background-color: #BC0A0F;
+    color: #fff;
+}
+img{
+    height: 200px;
+    width: 250px;
+
+}
+#child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:590px){
+    img{
+        width: 150px;
+    }
+    .result1 {
+        margin-right: 15px;
+    }
+    .result2 {
+        margin-right: 15px;
+    }
+    button{
+        cursor: pointer;
+        margin-top: 60px;
+        
+    }
+}
